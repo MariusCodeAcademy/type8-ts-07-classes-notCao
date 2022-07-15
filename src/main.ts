@@ -1,4 +1,5 @@
 import Account from './class/Account.js';
+import Transaction from './class/Transaction.js';
 
 console.log('main.ts');
 
@@ -11,3 +12,6 @@ acc2.deposit(500);
 acc.changeOwnerName('Severijus', 'secret1');
 console.log('acc ===', acc);
 console.log('acc2 ===', acc2);
+
+const tr1 = new Transaction('Serbentauas', 'Mike', 150);
+console.log('tr1 ===', tr1);
