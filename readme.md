@@ -11,9 +11,16 @@
 
 1. prideti saybe transactions kuri yra Transation clases objektu masyvas
 2. kiekviena karta ivykus depositui i saskaita irasom transakcija
-3. pridedam geteri transacions kuris grazina visas irasytas transakcijas
-4. pridedam metoda credit() kuris priesingas deposit(). pvz credit(100) turi isminusuoti 100 is saskaitos.
+3. vygdant deposita mes gauname argumentu Transation objekta ir jei ne transakcion tada klaida
+4. pridedam geteri transacions kuris grazina visas irasytas transakcijas
+
+5. pridedam metoda credit() kuris priesingas deposit(). pvz credit(100) turi isminusuoti 100 is saskaitos.
 
    4.1. Isitikinti kad uztenka pinigu operacijai. Jei ne grazinti pranesima 'Nepakankamas likutis'
 
-5. Padaryti kad sukuriant account nereiketu prideti id. Id turetu buti didejantis skaicius kiek accountu yra sukurta arba random sugeneruotas skaicius ar stringas.
+6. Padaryti kad sukuriant account nereiketu prideti id. Id turetu buti didejantis skaicius kiek accountu yra sukurta arba random sugeneruotas skaicius ar stringas.
+
+## Html
+
+1. sukurti htmle forma naujo account sukurimui
+2. supildzius name ir pradini likuti sukuriamas naujas account
