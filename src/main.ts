@@ -8,6 +8,6 @@ acc.username = 'Serbas';
 const acc2 = new Account(2, 'James Bond', 500);
 acc2.deposit(500);
 // acc2.owner = 'Mike';
-acc.changeOwnerName('Severijus', 'secret');
+acc.changeOwnerName('Severijus', 'secret1');
 console.log('acc ===', acc);
 console.log('acc2 ===', acc2);

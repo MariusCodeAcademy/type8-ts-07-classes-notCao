@@ -20,8 +20,12 @@ export default class Account {
     console.log(this._balance * tax);
   }
 
-  changeOwnerName(newName: string, psw: string): void {
-    if (psw !== 'secret') return;
+  // eslint-disable-next-line consistent-return
+  changeOwnerName(newName: string, psw: string): string | void {
+    if (psw !== 'secret') {
+      console.log('blogas slaptazodis');
+      return 'blogas slaptazodis';
+    }
     this._owner = newName;
   } // leisti pakeisti varda jei gautas slaptazodis yra  === secret
 
