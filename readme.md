@@ -14,3 +14,4 @@
 3. pridedam geteri transacions kuris grazina visas irasytas transakcijas
 4. pridedam metoda credit() kuris priesingas deposit(). pvz credit(100) turi isminusuoti 100 is saskaitos.
    4.1 Isitikinti kad uztenka pinigu operacijai. Jei ne grazinti pranesima 'Nepakankamas likutis'
+5. Padaryti kad sukuriant account nereiketu prideti id. Id turetu buti didejantis skaicius kiek accountu yra sukurta arba random sugeneruotas skaicius ar stringas.
