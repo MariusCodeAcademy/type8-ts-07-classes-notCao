@@ -20,7 +20,10 @@ export default class Account {
     console.log(this._balance * tax);
   }
 
-  // changeOnerName(); // leisti pakeisti varda jei gautas slaptazodis yra  === secret
+  changeOwnerName(newName: string, psw: string): void {
+    if (psw !== 'secret') return;
+    this._owner = newName;
+  } // leisti pakeisti varda jei gautas slaptazodis yra  === secret
 
   // getter - get <savybes pavadinimas>
   // setter
