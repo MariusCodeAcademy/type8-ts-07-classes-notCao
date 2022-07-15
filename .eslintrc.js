@@ -17,5 +17,7 @@ module.exports = {
     'react/jsx-filename-extension': [0],
     'no-console': 'off',
     'linebreak-style': 'off',
+    '@typescript-eslint/lines-between-class-members': [0],
+    'no-underscore-dangle': 'off',
   },
 };
