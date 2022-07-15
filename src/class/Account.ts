@@ -20,26 +20,27 @@ class Account {
     console.log(this._balance * tax);
   }
 
-  getBalace(): number {
+  changeOnerName(); // leisti pakeisti varda jei gautas slaptazodis yra  === secret
+
+  // getter - get <savybes pavadinimas>
+  // setter
+
+  get balace(): number {
     return this._balance;
   }
 
-  getOwner(): string {
+  get owner(): string {
     return this._owner;
   }
 }
 
 const acc = new Account(1, 'Serbentautas', 5);
 acc.username = 'Serbas';
-// acc.id = 5; // error
-console.log('acc.getBalace() ===', acc.getBalace());
+
+console.log('acc.balace ===', acc.balace);
 const acc2 = new Account(2, 'James Bond', 500);
 acc2.deposit(500);
-// padaryti owner nepasiekiama is isores
-// acc2._owner = 'MIke';
-console.log('acc2.getOwner() ===', acc2.getOwner());
-
-// pasirasom metoda kad gautu ownerio varda
-
+acc2.owner = 'Mike';
+console.log('acc2.owner ===', acc2.owner);
 console.log('acc ===', acc);
 console.log('acc2 ===', acc2);
