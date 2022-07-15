@@ -25,4 +25,4 @@
 1. sukurti htmle forma naujo account sukurimui
 2. supildzius name ir pradini likuti sukuriamas naujas account
 3. Atvaizduoti htmle visus accountus lenteles ar saraso pavidalu
-4. sukurti atskira forma pinigu operacijai atlikti. supildom nuo ko, kam ir kiek. Pateikiant forma
+4. sukurti atskira forma pinigu operacijai atlikti. supildom nuo ko, kam ir kiek. Pateikiant forma papildom balansa. Kam pervedam turetu buti selektas
