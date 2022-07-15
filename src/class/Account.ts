@@ -20,7 +20,7 @@ class Account {
     console.log(this._balance * tax);
   }
 
-  changeOnerName(); // leisti pakeisti varda jei gautas slaptazodis yra  === secret
+  // changeOnerName(); // leisti pakeisti varda jei gautas slaptazodis yra  === secret
 
   // getter - get <savybes pavadinimas>
   // setter
@@ -40,7 +40,7 @@ acc.username = 'Serbas';
 console.log('acc.balace ===', acc.balace);
 const acc2 = new Account(2, 'James Bond', 500);
 acc2.deposit(500);
-acc2.owner = 'Mike';
+// acc2.owner = 'Mike';
 console.log('acc2.owner ===', acc2.owner);
 console.log('acc ===', acc);
 console.log('acc2 ===', acc2);
