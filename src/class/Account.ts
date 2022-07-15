@@ -1,3 +1,4 @@
+import Transaction from './Transaction.js';
 /* eslint-disable no-underscore-dangle */
 // OOP
 export default class Account {
@@ -7,6 +8,7 @@ export default class Account {
   // protected - access from within and inherited classes
 
   username?: string | undefined;
+  private transactions: Transaction[] = [];
   // paraterer properties
   constructor(public readonly id: number, private _owner: string, private _balance: number) {}
 
