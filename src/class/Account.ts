@@ -1,6 +1,6 @@
 /* eslint-disable no-underscore-dangle */
 // OOP
-class Account {
+export default class Account {
   // properties
   // public - default, access from anywere
   // private - access from whitnin class
@@ -33,14 +33,3 @@ class Account {
     return this._owner;
   }
 }
-
-const acc = new Account(1, 'Serbentautas', 5);
-acc.username = 'Serbas';
-
-console.log('acc.balace ===', acc.balace);
-const acc2 = new Account(2, 'James Bond', 500);
-acc2.deposit(500);
-// acc2.owner = 'Mike';
-console.log('acc2.owner ===', acc2.owner);
-console.log('acc ===', acc);
-console.log('acc2 ===', acc2);
