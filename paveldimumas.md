@@ -21,5 +21,7 @@
 1. sukurti Calc clase. Ji priima 2 skaitinius argumentus.
 2. aprasyti 'add', 'minus', 'divide', 'multiply' metodus kurie atlieka isvardintus veiksmus, atspausdina ir grazina rezultata.
 3. sukurti ScientificCalc clase kuri paveldi Calc clase.
-4. prideti papildomai 'pliusProc', 'minusProc', 'power'(kelti laipsniu) veiksmus.
+4. prideti papildomai 'pliusProc'(100 + 20% = 120), 'minusProc', 'power'(kelti laipsniu) veiksmus.
 5. sukurti buda irasyti visas atliktas operacijas su skaiciuotuvu nuo jo sukurimo su 'new'
+6. pasileisti fronta su `npm run dev` (lite serveris)
+7. padaryti kad veiktu skaiciuotuvo html
