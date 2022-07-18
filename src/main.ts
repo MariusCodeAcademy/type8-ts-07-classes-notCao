@@ -1,4 +1,4 @@
-import Account from './class/Account.js';
+import Account, { AccountI } from './class/Account.js';
 import Transaction from './class/Transaction.js';
 
 console.log('main.ts');
