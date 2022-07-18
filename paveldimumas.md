@@ -15,3 +15,11 @@
 4. sukurti getteri kuris grazina stringo pavidalu kuriom dienom dirbama, pvz [1, 3, 5] => 'pirmadienis, treciadinis, penktadienis'.
 5. sukurti 2 mokytojus ir padaryti kad jie nueitu po 20km per 2-3 kartus.
 6. nustatyti workWeek mokytojui kad dirbtu sestadieni sekmadieni. paziureti ar veikia
+
+## Calculator
+
+1. sukurti Calc clase. Ji priima 2 skaitinius argumentus.
+2. aprasyti 'add', 'minus', 'divide', 'multiply' metodus kurie atlieka isvardintus veiksmus, atspausdina ir grazina rezultata.
+3. sukurti ScientificCalc clase kuri paveldi Calc clase.
+4. prideti papildomai 'pliusProc', 'minusProc', 'power'(kelti laipsniu) veiksmus.
+5. sukurti buda irasyti visas atliktas operacijas su skaiciuotuvu nuo jo sukurimo su 'new'
