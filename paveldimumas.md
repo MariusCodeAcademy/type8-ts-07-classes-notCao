@@ -11,4 +11,7 @@
 
 1. Sukurti Teacher clase kuri paveldi Person
 2. prideti Subject gali buti 'Math', 'Literature', 'Architecture'
-3.
+3. Teacher klasei prideti workWeek savybe kuri yra skaiciu masyvas ir zymi kuriomis dienomis jis dirba. pvz [1, 3, 5] reiskia pirmadieni treciadini, penktadieni
+4. sukurti getteri kuris grazina stringo pavidalu kuriom dienom dirbama, pvz [1, 3, 5] => 'pirmadienis, treciadinis, penktadienis'.
+5. sukurti 2 mokytojus ir padaryti kad jie nueitu po 20km per 2-3 kartus.
+6. nustatyti workWeek mokytojui kad dirbtu sestadieni sekmadieni. paziureti ar veikia
