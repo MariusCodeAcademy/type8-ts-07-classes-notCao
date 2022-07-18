@@ -26,13 +26,36 @@ class Person {
   }
 }
 
+class Student extends Person {
+  constructor(public readonly email: string, firstName: string, lastName: string) {
+    // super === Person.contstrutor()
+    super(firstName, lastName);
+  }
+
+  takeTest(subject: string): void {
+    console.log(`${this.firstName} is taking a test in ${subject}`);
+  }
+}
+
 const p1 = new Person('Severijus', 'Klaida');
-const p2 = new Person('Sebentautas', 'Niekada');
-console.log(p1.fullName);
-p1.walk(5);
-p1.walk(5);
-p1.walk(5);
+const p2 = new Student('Sebas@Niekada.com', 'Sebentautas', 'Niekada');
+p2.takeTest('Node authorization');
+// console.log('p2 ===', p2);
+// console.log(p1.fullName);
+// p1.walk(5);
+// p1.walk(5);
+p2.walk(5);
 p2.walk(7);
 // cp1onsole.log('p1 ===', p1);
-p1.todayWalked;
+p2.todayWalked;
 // p1.fullName = 'Severijus';
+
+// extends ekvivalentas
+// const user = {
+//   name: 'John',
+//   age: 34,
+// };
+// const userEmail = {
+//   ...user,
+//   email: 'john@example.com',
+// };
