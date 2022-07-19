@@ -1,12 +1,18 @@
 /* eslint-disable class-methods-use-this */
 interface UberInterface {
+  name: string;
   start(): void;
   stop(): void;
 }
 class Uber implements UberInterface {
   // static savybe priklauso klasei o ne individualiems objektams
   private static _activeRides: number = 0;
+  constructor(public name: string) {}
 
+  // talk(): void {
+  //   console.log('ub start');
+  //   Uber._activeRides += 1;
+  // }
   start(): void {
     console.log('ub start');
     Uber._activeRides += 1;
@@ -20,9 +26,9 @@ class Uber implements UberInterface {
   }
 }
 
-const ubArr: UberInterface[] = [new Uber(), new Uber(), new Uber()];
-ubArr.forEach((uObj) => uObj.start());
-ubArr[1].stop();
+// const ubArr: UberInterface[] = [new Uber(), new Uber(), new Uber()];
+// ubArr.forEach((uObj) => uObj.start());
+// ubArr[1].stop();
 
 // Uber.activeRides = 50;
 
@@ -31,4 +37,4 @@ console.log('Uber.activeRides ===', Uber.activeRides);
 // const ub15 = new Uber();
 
 // ar ubArr[1] yra sukurtas pagal Uber klase ?
-console.log(ubArr[1] instanceof Uber);
+// console.log(ubArr[1] instanceof Uber);

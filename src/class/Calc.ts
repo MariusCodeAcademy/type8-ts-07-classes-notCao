@@ -1,4 +1,4 @@
-class Calc {
+export default class Calc {
   constructor(public num1: number, public num2: number) {}
 
   add(): number {
@@ -6,9 +6,6 @@ class Calc {
     console.log(`If jou add ${this.num1} to ${this.num2} === ${sum}`);
     return sum;
   }
+
+  // aprasyti minus()
 }
-
-const calculator = new Calc(10, 50);
-console.log('calculator ===', calculator);
-
-console.log('calculator.add() ===', calculator.add());
