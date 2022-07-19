@@ -23,3 +23,15 @@ export default class Calc implements Calculator {
 
   // aprasyti minus()
 }
+
+interface SCalc extends Calculator {
+  addProc(): number;
+}
+
+export class ScientificCalc extends Calc implements SCalc {
+  addProc(): number {
+    const proc = this.num1 * (this.num2 / 100 + 1);
+    console.log(`If jou add ${this.num2}% to ${this.num1} === ${proc}`);
+    return proc;
+  }
+}
